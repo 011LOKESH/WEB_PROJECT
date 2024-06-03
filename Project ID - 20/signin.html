@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In - Reward Points Dashboard</title>
+    <link rel="stylesheet" href="./signin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div class="signin-container">
+        <div class="left-container">
+            <div class="logo-container">
+                <img src="./logo.webp" alt="Reward Points Logo">
+                <p id="signin">Sign In</p>
+                <p id="para">To Continue To BIT Single Sign On</p>
+            </div>
+        </div>
+        <div class="right-container">
+            <div class="form-container">
+                <input type="text" placeholder="BITSATHY Account" id="account">
+                <input type="password" placeholder="Password" id="passwor">
+                <div class="next-btn" onclick="func()">Next</div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function func(){
+            var email = document.getElementById('account').value;
+            var pass = document.getElementById('passwor').value;
+            if(email == 'lokesh' && pass == '123'){
+                window.location.assign("Student.html")
+            }
+            else if(email == 'faculty' && pass == '456'){
+                window.location.assign("Faculty.html")
+            }
+            else if(email == 'admin' && pass == '789'){
+                window.location.assign("Admin.html")
+            }
+            else {
+                alert("Incorrect email or password")
+            }
+        }
+    </script>
+</body>
+</html>
