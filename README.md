@@ -25,15 +25,15 @@ Module Description	  -  Students Technical and non-technical reward points syste
 3.	Valid Login? (Yes/No): The system validates the provided credentials. <br>
 o	Valid Login (Yes): Users are directed to their respective dashboards based on their roles.<br>
 o	Invalid Login (No): Users are redirected to the login screen with an error message.<br>
-4.Faculty Details:<br>
-o	Faculty login can request reward points with student detail who attended specific events eligible for reward points <br>
-o	Also has access to view reward points allocated by every students<br>
-5.Admin Details:<br>
-o	Admin login can accept or reject request from faculty for reward points <br>
-o	If request is rejected the admin can give feedback about rejection .<br>
-6.Super Admin Details:<br>
+4. Faculty Details:<br>
+ o	Faculty login can request reward points with student detail who attended specific events eligible for reward points <br>
+ o	Also has access to view reward points allocated by every students<br>
+5. Admin Details:<br>
+ o	Admin login can accept or reject request from faculty for reward points <br>
+ o	If request is rejected the admin can give feedback about rejection .<br>
+6. Super Admin Details:<br>
 o	Super admin login has access to allocate reward points for accepted request from admin<br>
-7.Student Details:<br>
+7. Student Details:<br>
 o	Student login can only see reward points allocated by them in detail .<br>
 
 
@@ -44,3 +44,4 @@ End: Users can log out anytime, returning to the starting point.
 Explanation:
 The system flow is illustrated by the flowchart. Here's a breakdown of the key steps involved:
  
+<img width="3669" alt="final flow chart" src="https://github.com/011LOKESH/WEB_PROJECT/assets/115442355/002d667b-d89c-4f7f-a501-fa5a7e5ca819">
